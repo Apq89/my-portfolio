@@ -1,0 +1,60 @@
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  padding: 30px;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* Ajustes para tablets (telas menores que 768px) */
+@media (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .card {
+    padding: 1.5em;
+  }
+}
+
+/* Ajustes para smartphones (telas menores que 480px) */
+@media (max-width: 480px) {
+  .content-container {
+    padding: 5px;
+    height: auto;
+    width: 90vw;
+    justify-content: center;
+    margin-top: 85px;
+  }
+
+  .card {
+    padding: 1em;
+  }
+}
