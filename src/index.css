@@ -108,7 +108,8 @@ canvas {
   }
 
   #root {
-    padding: 0 15px;
+    padding-bottom: 80px;
+    padding-top: 100px;
   }
 }
 
