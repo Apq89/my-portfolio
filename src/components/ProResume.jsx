@@ -35,9 +35,9 @@ const ProResume = () => {
 
         <div className="cv-download">
           {language === 'pt' ? (
-            <button><a href="src/assets/CV-PT.pdf" target="_blank" rel="noopener noreferrer">Download my full CV (Portuguese)</a></button>
+            <button><a href="/CV-PT.pdf" target="_blank" rel="noopener noreferrer">Download my full CV (Portuguese)</a></button>
           ) : (
-            <button><a href="src/assets/CV-EN.pdf" target="_blank" rel="noopener noreferrer">Download my full CV (English)</a></button>
+            <button><a href="/CV-EN.pdf" target="_blank" rel="noopener noreferrer">Download my full CV (English)</a></button>
           )}
         </div>
       </div>
